@@ -4,7 +4,7 @@ body{
   font-weight: 400;
 }
 
-.course-title {
+#course-title {
   padding: 30px;
   text-align: center;
   display: block;
