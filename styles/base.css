@@ -10,7 +10,9 @@ body{
   display: block;
   background-color: rgb(10, 118, 241);
 }
-
+header {
+  background-color: rgb(10, 118, 241);
+}
 .nav-menu {
   display: flex;
   justify-content: space-around; /* Distributes links evenly across the bar */
