@@ -1,0 +1,44 @@
+
+@media only screen and (min-width: 40em) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    h1 {
+        background-color: rgb(244, 249, 255);
+        color: rgb(1, 45, 95);
+        font-size: 1.5rem;
+    }
+
+    .temple-gallery {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    figure {
+        background-color: #ffffff;
+        padding: 20px;
+    }
+}
