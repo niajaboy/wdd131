@@ -5,15 +5,22 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
     }
+ nav {
+    display: flex;
+}
 
-    .navigation {
-        display: flex;
-        justify-content: space-evenly;
-    }
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5rem;
+}
 
-    .navigation li {
+
+.navigation li {
         display: block;
+        padding: 0 0.8rem;
     }
 
     .navigation a {
