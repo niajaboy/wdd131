@@ -24,17 +24,26 @@ h2 {
   margin-top: 35px;
 }
 
-/* Color boxes */
+
 .color-box {
-  width: 120px;
+  width: 140px;
+  height: 160px;          
   display: inline-block;
   margin: 10px;
   text-align: center;
   border: 1px solid #ccc;
+  vertical-align: top;    
+  background-color: white;
 }
 
 .color-box div {
-  height: 60px;
+  height: 70px;
+}
+
+.color-box p {
+  padding: 8px 5px;
+  font-size: 0.85rem;
+  margin: 0;
 }
 
 .color1 { background-color: #1B5E20; }
