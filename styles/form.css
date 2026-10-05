@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #eee8e4;
+    color: #222;
+}
+
+header {
+    max-width: 700px;
+    margin: 10px auto 0;
+    padding: 15px;
+    text-align: center;
+    background-color: #3b1f1a;
+    color: white;
+
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+    padding: 15px;
+}
+
+form,
+.message {
+    background-color: #d6ccc8;
+    padding: 15px;}
+
+label,
+legend {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+form > label,
+form > input,
+form > select,
+form > textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+select,
+input[type="date"],
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: 1px solid #888;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+textarea {
+    height: 120px;
+}
+
+fieldset {
+    border: 0;
+    margin: 10px 0;
+}
+
+fieldset label {
+    display: inline-block;
+    margin: 8px 8px 8px 0;
+    font-weight: normal;
+}
+
+fieldset p {
+    font-size: 13px;
+    margin: 4px 0;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5a3026;
+    background-color: #5a3026;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3b1f1a;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #5a3026;
+}
+
+small {
+    color: #5a3026;
+    font-weight: normal;
+}
+
+footer {
+    max-width: 700px;
+    margin: 0 auto 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: #3b1f1a;
+    color: white;
+    font-size: 13px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+.message {
+    text-align: center;
+}
+
+.message h2 {
+    color: #3b1f1a;
+    margin-bottom: 10px;
+}
+
+.message p {
+    margin-bottom: 15px;
+}
+
+.message a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #5a3026;
+    color: white;
+    text-decoration: none;
+}
+
+.message a:hover {
+    background-color: #3b1f1a;
+}
+
+@media (min-width: 600px) {
+    main {
+        padding: 20px;
+    }
+
+    form,
+    .message {
+        padding: 20px;
+    }
+}
