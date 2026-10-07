@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact RecycleNG with recycling questions and suggestions. Discover clear recycling information, build sustainable habits, and share ideas to help your community recycle better.">
+  <meta name="author" content="Nanlung Longtau">
+  <title>RecycleNG | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="scripts/main.js" defer></script>
+  <script src="scripts/contacts.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <a class="logo" href="index.html">Recycle<span>NG</span></a>
+      <button id="menu" aria-label="Open navigation menu"></button>
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="materials.html">Materials</a></li>
+          <li><a href="tips.html">Tips &amp; Guide</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <p class="eyebrow">Let us hear from you</p>
+      <h1>Contact RecycleNG</h1>
+      <p>Share a question, experience, or suggestion that could help people manage waste better.</p>
+    </section>
+
+    <section class="contact-layout section-space">
+      <div>
+        <h2>Why contact us?</h2>
+        <p>RecycleNG is designed to make recycling information easier to understand. Your questions and suggestions can help identify topics that deserve clearer explanations.</p>
+        <div class="contact-box">
+          <h3>Good topics to share</h3>
+          <ul>
+            <li>A recycling question</li>
+            <li>A useful waste-management habit</li>
+            <li>An idea for your community</li>
+            <li>A topic you want explained</li>
+          </ul>
+        </div>
+      </div>
+
+      
+      <form id="contact-form" class="contact-form" method="get" action="contact-success.html">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="topic">Topic</label>
+        <select id="topic" name="topic" required>
+          <option value="" disabled selected>Select a topic...</option>
+          <option value="recycling">Recycling question</option>
+          <option value="waste">Waste management</option>
+          <option value="community">Community idea</option>
+          <option value="suggestion">Website suggestion</option>
+        </select>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="button">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div>
+        <a class="logo" href="index.html">Recycle<span>NG</span></a>
+        <p>Simple recycling information for Nigeria.</p>
+      </div>
+      <div>
+        <h2>Quick Links</h2>
+        <a href="index.html">Home</a>
+        <a href="materials.html">Materials</a>
+        <a href="tips.html">Tips &amp; Guide</a>
+        <a href="references.html">References</a>
+      </div>
+    </div>
+    <p class="copyright">&copy; <span id="currentYear"></span> RecycleNG | Nigeria</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>

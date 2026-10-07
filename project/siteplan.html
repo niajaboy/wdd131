@@ -3,100 +3,70 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Website planning document for RecycleNG, a site that teaches recycling and waste management in Nigeria.">
+  <meta name="description" content="RecycleNG website planning document.">
   <meta name="author" content="Nanlung Longtau">
-  <title>RecycleNG Site Plan |Product Review | WDD 131</title>
-
+  <title>RecycleNG | Site Plan</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
-
-
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/siteplan.css">
   <script src="scripts/siteplan.js" defer></script>
 </head>
 <body>
-
   <main>
     <h1>RecycleNG - Website Planning Document</h1>
-  <p><strong>WDD 131 | Dynamic Web Fundamentals</strong></p>
+    <p><strong>WDD 131 | Dynamic Web Fundamentals</strong></p>
 
-  <h2>1. Site Name</h2>
-  <p><strong>RecycleNG</strong></p>
-  <p>
-    I chose the name RecycleNG because it is short and easy to remember. 
-    “Recycle” shows the main topic and “NG” stands for Nigeria. 
-    This name helps people quickly understand that the website is about recycling in Nigeria.
-  </p>
+    <h2>1. Site Name</h2>
+    <p><strong>RecycleNG</strong> is short, easy to remember, and connects recycling with Nigeria.</p>
 
-  <h2>2. Site Purpose</h2>
-  <p>
-    The purpose of this website is to teach people in Nigeria about recycling and proper waste management. 
-    It will explain different recyclable materials (plastic, paper, glass, and metal) and give simple tips 
-    on how to sort and reduce waste. Visitors can also ask questions or share their experiences.
-  </p>
+    <h2>2. Site Purpose</h2>
+    <p>The purpose is to teach people in Nigeria about recycling and proper waste management. It explains recyclable materials and gives simple tips for sorting, reducing, and reusing waste.</p>
 
-  <h2>3. Scenarios</h2>
-  <p>These are questions that visitors might ask:</p>
-  <ul>
-    <li>How do I properly sort plastic bottles and bags for recycling?</li>
-    <li>What paper, glass, or metal items can I recycle at home?</li>
-    <li>Where can I ask a question or share my recycling experience?</li>
-  </ul>
+    <h2>3. Scenarios</h2>
+    <ul>
+      <li>How do I properly sort plastic bottles and bags?</li>
+      <li>What paper, glass, or metal items can I recycle at home?</li>
+      <li>Where can I ask a question or share my recycling experience?</li>
+    </ul>
 
-  <h2>4. Color Scheme</h2>
-  <p>I chose green colors because they represent nature and the environment.</p>
+    <h2>4. Color Scheme</h2>
+    <div class="color-box">
+      <div class="color1"></div>
+      <p>#1B5E20<br>Primary Green</p>
+    </div>
+    <div class="color-box">
+      <div class="color2"></div>
+      <p>#4CAF50<br>Secondary Green</p>
+    </div>
+    <div class="color-box">
+      <div class="color3"></div>
+      <p>#F5F5F5<br>Background</p>
+    </div>
+    <div class="color-box">
+      <div class="color4"></div>
+      <p>#0D3B12<br>Dark Green</p>
+    </div>
 
-  <div class="color-box">
-    <div class="color1"></div>
-    <p>#1B5E20<br>Primary Green<br>Headings and logo</p>
-  </div>
+    <h2>5. Typography</h2>
+    <ul>
+      <li><strong>Montserrat</strong> - headings and logo.</li>
+      <li><strong>Open Sans</strong> - body text.</li>
+    </ul>
 
-  <div class="color-box">
-    <div class="color2"></div>
-    <p>#4CAF50<br>Secondary Green<br>Borders and highlights</p>
-  </div>
-
-  <div class="color-box">
-    <div class="color3"></div>
-    <p>#F5F5F5<br>Light Background<br>Page background</p>
-  </div>
-
-  <div class="color-box">
-    <div class="color4"></div>
-    <p>#0D3B12<br>Dark Green<br>Footer text</p>
-  </div>
-
-  <h2>5. Typography</h2>
-  <p>I selected two simple fonts:</p>
-  <ul>
-    <li><strong>Montserrat</strong> - used for all headings (h1, h2, h3)</li>
-    <li><strong>Open Sans</strong> - used for body text and paragraphs</li>
-  </ul>
-
-  <h2>6. Wireframes - Home Page</h2>
-
-  <h3>Mobile View</h3>
-  <img src="images/wireframe-mobile.png" 
-       alt="Simple sketch wireframe of the RecycleNG homepage on mobile" 
-       width="280" 
-       height="500">
-
-  <h3>Desktop View</h3>
-  <img src="images/wireframe-desktop.png" 
-       alt="Simple sketch wireframe of the RecycleNG homepage on desktop" 
-       width="600" 
-       height="400">
-
+    <h2>6. Pages</h2>
+    <ul>
+      <li>Home - introduction and recycling basics.</li>
+      <li>Materials - JavaScript material cards and filters.</li>
+      <li>Tips &amp; Guide - practical tips and localStorage checklist.</li>
+      <li>Contact - HTML form and JavaScript interaction.</li>
+      <li>References - source list.</li>
+    </ul>
   </main>
- <footer>
-        <p><span id="currentYear"></span></p>
-        <p id="lastModified"></p>
-        <p>File: project/siteplan.html</p>
-    </footer>
-    
 
-
+  <footer>
+    <p>&copy; <span id="currentYear"></span> RecycleNG</p>
+    <p id="lastModified"></p>
+  </footer>
 </body>
 </html>
